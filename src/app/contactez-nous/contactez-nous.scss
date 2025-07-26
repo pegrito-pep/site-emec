@@ -1,0 +1,46 @@
+/* Hero section */
+.contact-hero {
+  background: linear-gradient(90deg, #0d6efd 60%, #0a58ca 100%);
+  min-height: 180px;
+  display: flex;
+  align-items: end;
+}
+
+/* Aligner image et formulaire sur la même hauteur */
+.contact-row {
+  display: flex;
+  align-items: stretch;
+}
+.contact-img {
+  height: 100%;
+  min-height: 350px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 1rem rgba(0,0,0,0.08);
+}
+
+@media (max-width: 991.98px) {
+  .contact-row {
+    flex-direction: column;
+  }
+  .contact-img {
+    min-height: 220px;
+    margin-bottom: 1rem;
+  }
+}
+
+form.bg-white {
+  border-left: 4px solid #0d6efd;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form .btn-primary {
+  background: #0d6efd;
+  border: none;
+}
+form .btn-primary:hover {
+  background: #0a58ca;
+}

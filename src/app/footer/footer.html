@@ -1,0 +1,91 @@
+
+<footer class="bg-primary text-white pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 mb-3">
+        <h5 class="fw-bold">Accueil</h5>
+        <ul class="list-unstyled">
+          <li><a routerLink="/" class="text-white text-decoration-none">Actuel</a></li>
+          <li><a routerLink="/apropos" class="text-white text-decoration-none">À propos</a></li>
+          <li><a routerLink="/organization" class="text-white text-decoration-none">Organization</a></li>
+          <li><a routerLink="/implantations" class="text-white text-decoration-none">Implantations</a></li>
+          <li><a routerLink="/formation" class="text-white text-decoration-none">Formation</a></li>
+          <li><a routerLink="/ministeres" class="text-white text-decoration-none">Ministères</a></li>
+          <li><a routerLink="/groupes" class="text-white text-decoration-none">Groupes d'Action</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h5 class="fw-bold">Formation, Ministères</h5>
+        <ul class="list-unstyled">
+          <li><a routerLink="/formation" class="text-white text-decoration-none">Formation</a></li>
+          <li><a routerLink="/ministeres" class="text-white text-decoration-none">Ministères</a></li>
+          <li><a routerLink="/groupes" class="text-white text-decoration-none">Groupes d'Action Chrétienne</a></li>
+          <li><a routerLink="/evenements" class="text-white text-decoration-none">Événements</a></li>
+          <li><a routerLink="/dons" class="text-white text-decoration-none">Dons</a></li>
+        </ul>
+      </div>
+      
+      <div class="col-md-3 mb-3">
+        <h5 class="fw-bold">Nous contacter</h5>
+        <hr class="border-light opacity-50 my-2" style="width: 40px;">
+        <a routerLink="/contactez-nous" class="d-block text-info mb-2 text-decoration-none">Formulaire de contact</a>
+        <div class="small lh-lg">
+          Église Messianique Évangélique du Cameroun<br>
+          BP 1234<br>
+          Yaoundé – Cameroun<br>
+          Tél : 222 00 00 00<br>
+          <a href="mailto:contact@emec-cameroun.org" class="text-info text-decoration-none">contact&#64;emec-cameroun.org</a>
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h5 class="fw-bold">Agir ensemble</h5>
+        <hr class="border-light opacity-50 my-2" style="width: 40px;">
+        <div class="fw-semibold text-info mb-2">Nouvelles de la mission</div>
+        <form>
+          <label for="footer-email" class="form-label text-white">Mon e-mail</label>
+          <input type="email" class="form-control mb-2" id="footer-email" placeholder="Votre e-mail">
+          <button type="submit" class="btn btn-outline-light fw-bold px-4">JE M'ABONNE</button>
+        </form>
+      </div>
+      <div class="col-md-3 mb-3">
+        <h5 class="fw-bold">Nous suivre</h5>
+        <hr class="border-light opacity-50 my-2" style="width: 40px;">
+        <div class="d-flex gap-3 mt-3">
+          <a href="https://www.facebook.com/emec.kousseri.7" target="_blank" rel="noopener" class="text-secondary text-decoration-none social-icon-footer">
+            <span class="d-inline-block border rounded-circle p-2" style="width:44px; height:44px; text-align:center;">
+              <i class="fab fa-facebook-f fa-lg"></i>
+            </span>
+          </a>
+          <a href="https://www.youtube.com/@EMEC1993" target="_blank" rel="noopener" class="text-secondary text-decoration-none social-icon-footer">
+            <span class="d-inline-block border rounded-circle p-2" style="width:44px; height:44px; text-align:center;">
+              <i class="fab fa-youtube fa-lg"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-4 small">© 2025 Église Messianique Évangélique du Cameroun. Tous droits réservés.</div>
+    <style>
+      .social-icon-footer .border {
+        border-color: #bbb !important;
+        color: #bbb !important;
+        background: transparent;
+        transition: background 0.2s, color 0.2s, border-color 0.2s;
+      }
+      .social-icon-footer:first-child:hover .border {
+        background: #fff;
+        color: #0d6efd !important;
+        border-color: #0d6efd !important;
+      }
+      .social-icon-footer:nth-child(2):hover .border {
+        background: #fff;
+        color: #dd3333 !important;
+        border-color: #dd3333 !important;
+      }
+      .social-icon-footer i {
+        line-height: 1.2;
+        vertical-align: middle;
+      }
+    </style>
+  </div>
+</footer>
